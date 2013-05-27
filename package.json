@@ -1,0 +1,31 @@
+{
+  "name": "levelplus",
+  "version": "0.0.1",
+  "description": "Adds atomic updates to levelup database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nharbour/levelplus/"
+  },
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "atomic",
+    "update",
+    "update",
+    "atomic",
+    "set"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "chai": "~1.6.0",
+    "mocha": "~1.10.0",
+    "rimraf": "~2.1.4",
+    "levelup": "~0.9.0",
+    "leveldown": "~0.5.0"
+  }
+}
