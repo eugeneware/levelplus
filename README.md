@@ -10,6 +10,23 @@ $ npm install levelplus
 
 # Example
 
+## Atomic Updates
+
+You can do atomic upates of values using db.update with a value:
+``` js
+var db = levelplus(levelup(dbPath,
+  { keyEncoding: 'utf8', valueEncoding: 'json' }));
+
+db.update('mykey', 1, function (err) {
+  db.update('mykey', 2, function (err) {
+    db.get('mykey', function (err, value) {
+      expect(value).to.equal(2);
+    });
+  });
+});
+
+```
+
 ## Atomic Increments
 
 You can do atomic updates using db.inc;
