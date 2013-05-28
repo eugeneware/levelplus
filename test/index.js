@@ -163,7 +163,7 @@ describe('levelplus', function () {
     }
   });
 
-  it.only('should be able to multiply an item by two', function (done) {
+  it('should be able to multiply an item by two', function (done) {
     function times(multiplier, init) {
       return function (data) {
         if (data === undefined) {

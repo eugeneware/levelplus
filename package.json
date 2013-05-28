@@ -1,6 +1,6 @@
 {
   "name": "levelplus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Adds atomic updates to levelup database",
   "main": "index.js",
   "scripts": {
