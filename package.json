@@ -1,6 +1,6 @@
 {
   "name": "levelplus",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds atomic updates to levelup database",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nharbour/levelplus/"
+    "url": "https://github.com/eugeneware/levelplus/"
   },
   "keywords": [
     "leveldb",
