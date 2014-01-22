@@ -3,7 +3,7 @@ Adds atomic updates to levelup database
 
 # Installation
 
-You can install promisemonkey through npm:
+You can install levelplus through npm:
 ```
 $ npm install levelplus
 ```
